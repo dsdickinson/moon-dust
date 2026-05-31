@@ -3,6 +3,12 @@
 A browser-based lunar hovercraft shooter. Fly over the entire surface of the moon,
 destroy hostile surface targets, use your rechargeable shield, and avoid incoming turret fire.
 
+![Game play](images/moon-dust-001.jpg)
+
+
+![Game play](images/moon-dust-002.jpg)
+
+
 ## Run
 
 ```sh
