@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moon Dust</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="game-shell" aria-label="Moon Dust game">
+      <canvas id="game"></canvas>
+
+      <section id="hud" aria-label="Game status">
+        <div class="readout">
+          <span>Hull</span>
+          <strong id="health">100</strong>
+        </div>
+        <div class="readout shield-readout">
+          <span>Shield</span>
+          <strong id="shield">100</strong>
+        </div>
+        <div class="readout">
+          <span>Targets</span>
+          <strong id="targets">0</strong>
+        </div>
+        <div class="readout">
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+      </section>
+
+      <div id="crosshair" aria-hidden="true">
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="damage" aria-hidden="true"></div>
+      <div id="shield-flare" aria-hidden="true"></div>
+
+      <section id="controls" aria-label="Controls">
+        <span>WASD / arrows</span>
+        <span>Move over moon</span>
+        <span>Space / click</span>
+        <span>Fire</span>
+        <span>F</span>
+        <span>Shield</span>
+        <span>Shift</span>
+        <span>Boost</span>
+        <span>R</span>
+        <span>Restart</span>
+      </section>
+
+      <button id="start" type="button">Launch</button>
+      <div id="message" role="status" aria-live="polite"></div>
+    </main>
+
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
