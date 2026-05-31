@@ -19,3 +19,7 @@ Then open <http://127.0.0.1:4173>.
 - `F`: hold shield
 - `Q` / `E`: roll around the local surface normal
 - `R`: restart
+
+## License
+
+MIT License.
